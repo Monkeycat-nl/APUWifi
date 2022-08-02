@@ -2,7 +2,7 @@
 
 # this should not be hardcoded
 base="/home/admin"
-DNS='10.0.80.1'
+DNS='1.1.1.1'
 home="$base/APUWifi"
 script="$base/scripts"
 
