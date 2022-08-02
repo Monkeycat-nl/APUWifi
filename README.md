@@ -21,4 +21,6 @@ remove_old-kernels.sh will remove and old stuff...
 
 note... harcoded.... change inside file... "this should not be hardcoded" /home/admin/APUWifi/wifi-patch.sh
 
+Also... must use...
 
+https://github.com/singe/wifi-frequency-hacker
