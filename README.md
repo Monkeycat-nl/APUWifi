@@ -7,4 +7,10 @@ sudo crontab -e
 
 add
 
-@reboot /home/admin/APUWifi/wifi-patch.sh
+@reboot 
+
+change... ((this should not be hardcoded))
+
+/home/admin/APUWifi/wifi-patch.sh
+
+
