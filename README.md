@@ -3,7 +3,9 @@ APU Debian 11 Wifi Driver Patch
 
 run
 
+```
 sudo crontab -e
+```
 
 add (fix path if downloaded in other location)
 
