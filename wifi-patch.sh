@@ -4,7 +4,7 @@
 base="/home/admin"
 DNS='1.1.1.1'
 home="$base/APUWifi"
-script="$base/scripts"
+#script="$base/scripts"
 
 
 
