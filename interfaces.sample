@@ -1,0 +1,30 @@
+# this is an outtake...
+
+auto wlp5s0
+iface wlp5s0 inet manual
+
+auto wifi5v0
+iface wifi5v0 inet manual
+
+auto wifi5v1
+iface wifi5v1 inet manual
+
+auto wifi5v2
+iface wifi5v2 inet manual
+
+auto wifi5v3
+iface wifi5v3 inet manual
+
+auto bond0.600
+iface bond0.600 inet manual
+  vlan-raw-device eth0
+
+auto bryellow
+iface bryellow inet manual
+  bridge_ports bond0.600
+  bridge_stp off
+  bridge_fd 0
+  bridge-vlan-aware yes
+  bridge-vids 600
+  hwaddress ether 00:01:00:00:02:07
+  pre-up iptables -I FORWARD 1 -i bryellow -o bryellow -j ACCEPT 2> /dev/null
