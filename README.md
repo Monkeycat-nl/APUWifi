@@ -6,8 +6,6 @@ Developed for the PC Engines APU boards (with wifi wlx600 card) but useable for 
 
 When you reboot with a new kernel: wifi-patch.sh will recompile driver with patch (if someone known how to compile after update and before the reboot let me know) and remove_old-kernels.sh will remove the old stuff saving space.
 
-https://github.com/pcengines/apu2-documentation/issues/309#issuecomment-1203235745
-
 # Install
 
 adjust in wifi-patch.sh the base path. currently configured to expect the scripts to be in /home/admin/APUWifi.
@@ -31,4 +29,8 @@ Also... must use...
 
 https://github.com/singe/wifi-frequency-hacker
 
-:)
+# References
+
+https://github.com/pcengines/apu2-documentation/issues/309#issuecomment-1203235745
+https://askubuntu.com/questions/1253347/how-to-easily-remove-old-kernels-in-ubuntu-20-04-lts
+
