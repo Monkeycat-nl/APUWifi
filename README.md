@@ -17,7 +17,7 @@ add (fix path if downloaded in other location)
 ```
 
 wifi-patch.sh will recompile driver after reboot... (if someone known how to compile after update and before the reboot let me know)
-remove_old-kernels.sh will remove and old stuff...
+remove_old-kernels.sh will remove the old stuff saving space.
 
 Also... must use...
 
