@@ -31,6 +31,5 @@ https://github.com/singe/wifi-frequency-hacker
 
 # References
 
- * https://github.com/pcengines/apu2-documentation/issues/309#issuecomment-1203235745
  * https://askubuntu.com/questions/1253347/how-to-easily-remove-old-kernels-in-ubuntu-20-04-lts
 
