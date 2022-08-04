@@ -1,7 +1,7 @@
 # APUWifi
 APU Debian 11 Wifi Driver Patch
 
-(script expected to be in /home/admin/APUWifi)
+adjust in wifi-patch.sh the base path. currently configured to expect the scripts to be in /home/admin/APUWifi.
 
 run
 
@@ -19,8 +19,8 @@ add (fix path if downloaded in other location)
 wifi-patch.sh will recompile driver after reboot... (if someone known how to compile after update and before the reboot let me know)
 remove_old-kernels.sh will remove and old stuff...
 
-note... harcoded.... change inside file... "this should not be hardcoded" /home/admin/APUWifi/wifi-patch.sh
-
 Also... must use...
 
 https://github.com/singe/wifi-frequency-hacker
+
+:)
