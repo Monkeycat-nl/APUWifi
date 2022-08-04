@@ -4,6 +4,9 @@ Automatic atheros wifi driver patch for debian.
 
 Developed for the PC Engines APU boards (with wifi wlx600 card) but useable for any atheros wifi card on any debian system.
 
+When you reboot with a new kernel: wifi-patch.sh will recompile driver with patch (if someone known how to compile after update and before the reboot let me know) and remove_old-kernels.sh will remove the old stuff saving space.
+
+https://github.com/pcengines/apu2-documentation/issues/309#issuecomment-1203235745
 
 # Install
 
@@ -23,8 +26,6 @@ add (fix path if installed in other location)
 ```
 
 make sure you have [unattended-upgrades](https://packages.debian.org/unattended-upgrades) installed and kernel upgrades are enabled.
-
-When you reboot with a new kernel: wifi-patch.sh will recompile driver with patch (if someone known how to compile after update and before the reboot let me know) and remove_old-kernels.sh will remove the old stuff saving space.
 
 Also... must use...
 
