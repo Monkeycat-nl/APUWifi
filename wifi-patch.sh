@@ -40,6 +40,10 @@ done
 
 # go for it
 apt-get install linux-headers-generic -y
+
+# remove junk in case of crash
+sudo rm linux*
+
 # get source
 apt-get source linux
 # have no idea to NOT get the latest source... simply
