@@ -50,7 +50,7 @@ apt-get source linux
 mv $(find . -type d -maxdepth 1 | grep linux) $folder
 
 # remove junk
-sudo rm -rf linux*
+sudo rm linux_*
 # backup folder
 mkdir $linux
 # begin build
