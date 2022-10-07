@@ -20,12 +20,12 @@ add (fix path if installed in other location)
 
 ```
 @reboot /home/admin/APUWifi/wifi-patch.sh
-@reboot /home/admin/APUWifi/remove_old_kernels.sh exec
+@reboot /home/admin/APUWifi/kernel-cleanup.sh exec
 ```
 
 make sure you have [unattended-upgrades](https://packages.debian.org/unattended-upgrades) installed and kernel upgrades are enabled.
 
-Also... must use...
+Also... must use... (make sure you either hold back the 'wireless-regdb' and the 'crda' or recopy the database when updating)
 
 https://github.com/singe/wifi-frequency-hacker
 
