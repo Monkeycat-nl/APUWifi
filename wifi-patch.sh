@@ -42,7 +42,7 @@ done
 apt-get install linux-headers-generic -y
 
 # remove junk in case of crash
-sudo rm linux*
+sudo rm -rf linux*
 
 # get source
 apt-get source linux
@@ -50,7 +50,7 @@ apt-get source linux
 mv $(find . -type d -maxdepth 1 | grep linux) $folder
 
 # remove junk
-sudo rm linux_*
+sudo rm -rf linux*
 # backup folder
 mkdir $linux
 # begin build
