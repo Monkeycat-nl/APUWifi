@@ -16,7 +16,7 @@ OLD_KERNELS=$(
 if [ "$1" == "exec" ]; then
     for PACKAGE in $OLD_KERNELS; do
         echo "removing $PACKAGE"
-        rm /lib/modules/$PACKAGE/kernel/drivers/net/wireless/ath/ath.ko.xz
+        rm /lib/modules/$PACKAGE/kernel/drivers/net/wireless/ath/ath.ko.xz &>/dev/null
         yes | apt purge "$PACKAGE"
         yes | apt install linux-image-generic
     done
